@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/vite.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naam van je project</title>
+
+    <!-- Externe stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://assets.website-files.com/64f41ea3b31af27272713c03/css/2d-shape-interaction.webflow.e64ab04a3.css"
+    />
+
+    <!-- Lokale styles -->
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <filter
+          id="filter0_b_1146_481"
+          x="-118.494"
+          y="-148.894"
+          width="479.988"
+          height="413.816"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
+          <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="effect1_backgroundBlur_1146_481"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_backgroundBlur_1146_481"
+            result="shape"
+          />
+        </filter>
+        <radialGradient
+          id="paint0_radial_1146_481"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(121.5 6.01852) rotate(90) scale(99.0616 240.349)"
+        >
+          <stop stop-color="#FFA800" />
+          <stop offset="1" stop-color="#FFA800" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+    </svg>
+
+    <div class="section">
+      <div class="tag-canvas"></div>
+    </div>
+
+    <!-- Matter.js via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
+    <!-- Eigen JS als module -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
